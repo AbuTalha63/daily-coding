@@ -8,6 +8,6 @@ public class TempConverter {
         System.out.println(9 / 5 * c + 32); // 69 cause only full value of 9 / 5 is 1. decimals don't carry over
         
         //fix of above
-        System.out.println((double)(9 / 5) * c + 32);
+        System.out.println((double)9 / 5 * c + 32);
     }
 }
