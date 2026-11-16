@@ -6,13 +6,17 @@ import java.util.Scanner;
  * EvenOdd
  */
 public class EvenOdd {
-    Scanner in = new Scanner(System.in);
-    int n = in.nextInt();
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
 
-    if (n % 2 == 0){
-        System.out.println( n + "is even: " + false);
-    } else {
-        System.out.println( n + "is even: " + true);
+        System.out.print("Enter a number to check if it is even or odd: ");
+        int n = in.nextInt();
+
+        if (n % 2 == 0) {
+            System.out.println(n + " is even");
+        } else {
+            System.out.println(n + " is odd");
+        }
+        in.close();
     }
-    
 }
