@@ -17,7 +17,7 @@ public class Initials {
         System.out.print("Enter your last name: ");
         String lName = in.next();
 
-        char fInitial = fName.charAt((fName.length() - 1) - (fName.length() - 1));
+        char fInitial = fName.charAt(0);
         System.out.println(fInitial);
 
         char L_Initial = lName.charAt((lName.length() - 1) - (lName.length() - 1));
